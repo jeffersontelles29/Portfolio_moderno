@@ -1,0 +1,10 @@
+// Sobre
+.sobre {
+  padding: 4rem 0;
+
+  // Progress
+  &-progress {
+    border-left: 2px solid #000;
+    padding-left: 1rem;
+  }
+}
