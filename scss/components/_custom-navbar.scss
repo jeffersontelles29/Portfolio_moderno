@@ -1,0 +1,33 @@
+.navbar {
+  background: $clr-dark !important;
+
+  // Navbar Logo
+  &-brand img {
+    height: 50px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $clr-base !important;
+  }
+
+  .navbar-nav {
+    align-items: flex-end;
+  }
+
+  .nav-item {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    color: $clr-white;
+    @include easeOut;
+    &:hover {
+      color: $clr-base-2 !important;
+    }
+  }
+
+  .fas {
+    color: $clr-base-2;
+  }
+}

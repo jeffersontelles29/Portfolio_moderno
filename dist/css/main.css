@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: #595957;
+  line-height: 1.5; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+
+.navbar {
+  background: #000 !important; }
+  .navbar-brand img {
+    height: 50px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #196A8C !important; }
+  .navbar .navbar-nav {
+    align-items: flex-end; }
+  .navbar .nav-item {
+    font-size: 1.3rem;
+    text-transform: uppercase; }
+  .navbar .nav-link {
+    color: #fff;
+    transition: all 0.4s ease-out; }
+    .navbar .nav-link:hover {
+      color: #FFCB48 !important; }
+  .navbar .fas {
+    color: #FFCB48; }
+
+.outdoor {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  .outdoor .lg-heading {
+    font-family: "Syncopate", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700; }
+    .outdoor .lg-heading span {
+      color: #FFCB48; }
+  .outdoor .sm-heading {
+    font-size: 1.3rem;
+    margin-bottom: 2rem; }
+  .outdoor .sociais .fab {
+    color: #196A8C;
+    padding: .7rem;
+    transition: all 0.4s ease-out; }
+    .outdoor .sociais .fab:hover {
+      color: #FFCB48; }

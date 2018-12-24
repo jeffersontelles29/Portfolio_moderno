@@ -1,0 +1,14 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Profissional",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss/ -o dist/css/ --recursive"
+  },
+  "author": "Jefferson Teles",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

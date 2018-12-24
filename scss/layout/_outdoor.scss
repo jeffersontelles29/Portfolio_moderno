@@ -1,0 +1,34 @@
+// Outdoor
+.outdoor {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  // Text Intro
+  .lg-heading {
+    font-family: $font-custom;
+    font-size: 2.5rem;
+    font-weight: 700;
+    span {
+      color: $clr-base-2;
+    }
+  }
+
+  // Sub text
+  .sm-heading {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+  // Sociais Icons Font Awesome
+  .sociais .fab {
+    color: $clr-base;
+    padding: .7rem;
+    @include easeOut;
+    &:hover {
+      color: $clr-base-2;
+    }
+  }
+}

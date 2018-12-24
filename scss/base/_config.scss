@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: $font-base;
+  color: $clr-lightnes;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
