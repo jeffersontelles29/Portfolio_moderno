@@ -4,7 +4,10 @@
 
   // Progress
   &-progress {
-    border-left: 2px solid #000;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
     padding-left: 1rem;
+  }
+  .progress-box {
+    margin-bottom: 2rem;
   }
 }
