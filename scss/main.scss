@@ -1,15 +1,16 @@
 // Abstracts
-@import 'abstracts/custom';
-@import 'abstracts/font';
-@import 'abstracts/mixin';
-@import 'abstracts/variables';
+@import "abstracts/custom";
+@import "abstracts/font";
+@import "abstracts/mixin";
+@import "abstracts/variables";
 
 // Base
-@import 'base/config';
+@import "base/config";
 
 // Components
-@import 'components/custom-navbar';
+@import "components/custom-navbar";
 
 // Layout
-@import 'layout/outdoor';
-@import 'layout/sobre';
+@import "layout/outdoor";
+@import "layout/services";
+@import "layout/sobre";

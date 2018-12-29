@@ -83,6 +83,15 @@ body {
     .outdoor .sociais .fab:hover {
       color: #FFCB48; }
 
+.servicos {
+  padding: 4rem 0; }
+  .servicos .box {
+    background: #FFCB48;
+    border-left: 5px solid #196A8C;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem; }
+
 .sobre {
   padding: 4rem 0; }
   .sobre-progress {
